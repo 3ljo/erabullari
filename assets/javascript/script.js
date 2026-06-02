@@ -103,7 +103,7 @@ function myFunction() {
 }
 document.addEventListener("DOMContentLoaded", function () {
     const storedMode = localStorage.getItem("mode");
-    if (storedMode === "dark") {
+    if (storedMode !== "light") {
         document.body.classList.add("dark-mode");
         var sunIcon = document.getElementById("sunIcon");
         var moonIcon = document.getElementById("moonIcon");
