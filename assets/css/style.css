@@ -2014,6 +2014,17 @@ ul {
     line-height: 30px;
 }
 
+.social_media li a i {
+    display: block;
+    transform: rotate(-90deg);
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social_media li a:hover i {
+    color: #A855F7;
+}
+
 .social_media {
     display: flex;
     transform: rotate(90deg);
