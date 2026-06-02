@@ -1476,6 +1476,16 @@ button:hover .shopping_bag {
     filter: var(--nav-menu-icon);
 }
 
+.skill_icon {
+    font-size: 58px;
+    color: var(--card-text);
+    transition: color 0.3s ease;
+}
+
+.hard_skill_group:hover .skill_icon {
+    color: #A855F7;
+}
+
 .hard_skill_group:hover .figma {
     filter: brightness(0) saturate(100%) invert(100%) sepia(26%) saturate(5679%) hue-rotate(216deg) brightness(122%) contrast(79%);
 }

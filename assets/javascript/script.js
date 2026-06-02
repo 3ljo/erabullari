@@ -10,9 +10,9 @@ document.getElementsByClassName("olivia_moswa")[0];
 // olivia moswa text end
 
 // designer text
-firstText = "Designer";
-secondText = "Developer";
-thridText = "Freelancer"
+firstText = "AI Engineer";
+secondText = "Software Developer";
+thridText = "Full-Stack Dev"
 intervalTime = 600;
 window.load = displayText();
 function displayText() {
